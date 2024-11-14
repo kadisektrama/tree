@@ -1,0 +1,21 @@
+.treeNode {
+    width: fit-content;
+    padding: 2px;
+    border-radius: 4px;
+    margin-bottom: 16pxl;
+    display: flex;
+    gap: 10px;
+}
+
+.selected {
+    background-color: lightblue;
+}
+
+.treeNode:hover {    
+    background-color: lightblue;
+}
+
+.actions {
+    display: flex;
+    gap: 4px;
+}
